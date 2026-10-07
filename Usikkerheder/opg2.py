@@ -14,4 +14,4 @@ v2 = unc.ufloat(19.6, 0.01 * 19.6)
 
 delta_v = v2 - v1
 
-print("Relativ usikkerhed:", delta_v.s / delta_v.n * 100, "%")
+print("Relativ usikkerhed:", delta_v.s / delta_v.n * 100, "%") #.n er nominal og .s er stadard deviation
